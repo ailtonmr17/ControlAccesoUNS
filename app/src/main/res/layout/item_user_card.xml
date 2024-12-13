@@ -46,12 +46,14 @@
                 android:id="@+id/btnEditCard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
                 android:text="Editar" />
 
             <Button
                 android:id="@+id/btnDeleteCard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
                 android:text="Eliminar"
                 android:layout_marginStart="8dp" />
         </LinearLayout>

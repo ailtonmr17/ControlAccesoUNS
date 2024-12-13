@@ -8,4 +8,15 @@
         <item name="android:windowBackground">@color/white</item>
     </style>
     <style name="Theme.ControlAccesoUNS" parent="Base.Theme.ControlAccesoUNS" />
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores del tema -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Fondo y texto -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+    </style>
 </resources>

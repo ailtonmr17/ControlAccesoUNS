@@ -4,4 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green">#4CAF50</color>
     <color name="orange">#FFEB3B</color>
+    <color name="colorPrimary">#D20037</color> <!-- Rojo Pantone DS 98-1 C -->
+    <color name="colorPrimaryDark">#A8002B</color> <!-- Un tono más oscuro del rojo -->
+    <color name="colorAccent">#E30049</color> <!-- Un tono ligeramente más claro para el énfasis -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Blanco para fondo -->
+    <color name="colorText">#000000</color> <!-- Negro para texto -->
+    <color name="colorLightRed">#F5A3B2</color> <!-- Rojo claro para variantes -->
+    <color name="colorGray">#F1F1F1</color> <!-- Gris para fondos secundarios -->
 </resources>
