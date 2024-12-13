@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titleReports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Reportes de Uso de Laboratorios"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Selector de Filtros -->
+    <Spinner
+        android:id="@+id/spinnerFilter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/report_filter_options" />
+
+    <!-- Contenedor dinámico de filtros -->
+    <LinearLayout
+        android:id="@+id/layoutDynamicFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical" />
+
+    <!-- Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGenerateReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generar Reporte" />
+
+        <Button
+            android:id="@+id/btnExportReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exportar (PDF/CSV)" />
+    </LinearLayout>
+
+    <!-- Vista previa del reporte -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewReportPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+</LinearLayout>
+

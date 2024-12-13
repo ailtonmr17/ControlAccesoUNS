@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.controlaccesouns"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.controlaccesouns"
@@ -45,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation ("com.google.android.material:material:1.9.0")
 }

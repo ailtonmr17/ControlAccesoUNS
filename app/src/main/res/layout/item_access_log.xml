@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@color/white">
+
+        <!-- Nombre del laboratorio -->
+        <TextView
+            android:id="@+id/textLaboratorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab 301"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <!-- ID del registro -->
+        <TextView
+            android:id="@+id/textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: 001"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <!-- Docente -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Docente:"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textDocente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Juan Pérez"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+
+        <!-- Curso -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curso:"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textCurso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aplicaciones Móviles"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+
+        <!-- Fecha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha:"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024-03-15"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+
+        <!-- Hora de entrada y salida -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrada:"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textHoraEntrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salida:"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/textHoraSalida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:00"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+
+        <!-- Estado -->
+        <TextView
+            android:id="@+id/textEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completado"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:background="@drawable/state_background"
+            android:textColor="@android:color/white"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

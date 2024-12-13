@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_access_logs"
+        android:title="Registro de Accesos"
+        android:icon="@drawable/ic_accesos" />
+
+    <item
+        android:id="@+id/nav_assign_labs"
+        android:title="Asignar Laboratorios"
+        android:icon="@drawable/ic_laboratorios" />
+
+    <item
+        android:id="@+id/nav_manage_cards"
+        android:title="Administrar Tc"
+        android:icon="@drawable/ic_tarjetas" />
+
+    <item
+        android:id="@+id/nav_reports"
+        android:title="Reportes"
+        android:icon="@drawable/ic_reportes" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Cerrar Sesión"
+        android:icon="@drawable/ic_cerrar_sesion" />
+</menu>

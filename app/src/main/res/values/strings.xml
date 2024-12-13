@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">ControlAccesoUNS</string>
+    <string name="app_logo">Logo de la Aplicación</string>
+    <string name="app_name">Control Acceso UNS</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+
+    <string-array name="report_filter_options">
+        <item>Fecha</item>
+        <item>Laboratorio</item>
+        <item>Docente</item>
+        <item>Curso</item>
+    </string-array>
+
+
 </resources>

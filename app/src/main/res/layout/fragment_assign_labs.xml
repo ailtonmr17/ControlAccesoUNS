@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titleAssignLabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asignación de Laboratorios"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Lista de laboratorios disponibles -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLabs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+    <!-- Botón para abrir el formulario de asignación -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOpenAssignForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asignar Laboratorio"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para Laboratorio -->
+    <EditText
+        android:id="@+id/editLabName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Laboratorio"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para Docente -->
+    <EditText
+        android:id="@+id/editDocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Docente"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para Curso -->
+    <EditText
+        android:id="@+id/editCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Curso"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para Hora de Inicio -->
+    <EditText
+        android:id="@+id/editStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de Inicio (Ej: 08:00)"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para Hora de Fin -->
+    <EditText
+        android:id="@+id/editEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de Fin (Ej: 10:00)"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCancelAssign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/btnSaveAssign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+</LinearLayout>
